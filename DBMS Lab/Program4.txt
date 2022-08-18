@@ -58,6 +58,5 @@ select c.name,min(balance) from account a,customer c where a.acc_no=c.acc_no;
 end;
 //
 
-call customers3();
 delimiter ;
 call customers3();
